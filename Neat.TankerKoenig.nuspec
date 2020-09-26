@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Neat.TankerKoenig</id>
+    <version>1.0.0</version>
+    <title>TankerKoenig</title>
+    <authors>NeatCapital OÜ</authors>
+    <owners>NeatCapital OÜ</owners>
+    <projectUrl>https://github.com/samafshari/TankerKoenig</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>German Gas Prices / Station Search</description>
+    <releaseNotes>German Gas Prices / Station Search</releaseNotes>
+    <copyright>Copyright 2020 NeatCapital OÜ</copyright>
+    <tags>German Germany Gas Diesel Petrol E5 E10 Benzin Station</tags>
+
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+          <dependency id="Newtonsoft.Json" version="12.0.3" />
+      </group>
+    </dependencies>
+    
+    <license type="file">LICENSE.txt</license>
+  </metadata>
+
+  <files>
+    <file src="LICENSE.txt" target="" />
+    <!-- <file src="redcorners_forms_logo3.png" target="" /> -->
+	
+	<file 
+      src="bin\Release\netstandard2.0\TankerKoenig.dll" 
+      target="lib\netstandard2.0\TankerKoenig.dll" />
+  </files>
+
+</package>
