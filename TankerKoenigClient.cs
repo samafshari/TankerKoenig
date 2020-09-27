@@ -43,6 +43,7 @@ namespace TankerKoenig
                     sort,
                     type);
                 var client = new HttpClient();
+                client.DefaultRequestHeaders.Add("Host", "creativecommons.tankerkoenig.de");
                 var json = await client.GetStringAsync(url);
                 var response = JsonConvert.DeserializeObject<ApiResponse>(json);
                 return response?.Stations;
